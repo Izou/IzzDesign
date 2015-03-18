@@ -34,7 +34,7 @@ $(document).ready(function(){
         if ($(window).scrollTop() > 400) {
             $("#navigation").css("background-color","#ED2E42");
         } else {
-            $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
+            $("#navigation").css("background-color","rgba(0, 0, 0, 0.2)");
         }
     });
 	
