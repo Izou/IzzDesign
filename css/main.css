@@ -93,6 +93,13 @@ body > section,
 	color: #5b646e;
 }
 
+#service-desc .lightp p {
+  font-weight: 100;
+  line-height: 20px;
+  font-size: 14px;
+  color: #5b646e;
+}
+
 .devider {
   margin-top: 30px;
 }
