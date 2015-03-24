@@ -487,7 +487,13 @@ top: -8px;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  margin: 15px 0 8px;
+  margin: 0 auto;
+}
+
+.team-member p {
+  text-align: justify;
+  line-height: 2em;
+  margin-top: 3em;
 }
 
 .member-thumb:hover .overlay {
