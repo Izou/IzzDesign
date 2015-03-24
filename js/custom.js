@@ -83,7 +83,7 @@ $(document).ready(function(){
 	/*	Timer count
 	/* ========================================================================= */
 
-	"use strict";
+/*	"use strict";
     $(".number-counters").appear(function () {
         $(".number-counters [data-to]").each(function () {
             var e = $(this).attr("data-to");
@@ -94,7 +94,7 @@ $(document).ready(function(){
                 refreshInterval: 50
             })
         })
-    });
+    });*/
 	
 	/* ========================================================================= */
 	/*	Back to Top
