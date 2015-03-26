@@ -603,9 +603,8 @@ top: -8px;
   padding-left: 75px;
 }
 
-.contact button{
-  background-color: #fff;
-  border: none;
+.contact a{
+  color: #6a737b;
 }
 
 .contact-form {}
