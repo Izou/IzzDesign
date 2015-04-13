@@ -189,6 +189,7 @@ body > section,
 #slider .carousel-inner .item img {
 margin: 0 auto;
 padding-top: 7em;
+width: 20%;
 }
 
 .carousel-caption {
