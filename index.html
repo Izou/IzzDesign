@@ -712,27 +712,27 @@
 					<!-- end contact address -->
 					
 					<!-- contact form -->
-					<!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="contact-form">
-							<h3>Say hello!</h3>
-							<form action="#" id="contact-form">
+							<h3>M'envoyer un message :</h3>
+							<form action="//formspree.io/contact@izzdesign.fr" method="POST" id="contact-form">
 								<div class="input-group name-email">
 									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
+										<input type="text" name="name" id="name" placeholder="Nom" class="form-control">
 									</div>
 									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
+										<input type="email" name="_replyto" id="email" placeholder="Email" class="form-control">
 									</div>
 								</div>
 								<div class="input-group">
 									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
 								</div>
 								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
+									<input type="submit" id="form-submit" class="pull-right" value="Envoyer">
 								</div>
 							</form>
 						</div>
-					</div> -->
+					</div>
 					<!-- end contact form -->
 					
 					<!-- footer social links -->
@@ -885,15 +885,15 @@
 					},
 					messages: {
 						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
+							required: "Votre Nom ?",
+							minlength: "Minimum 2 caractères !"
 						},
 						email: {
-							required: "no email, no message"
+							required: "Pas d'e-mail ?"
 						},
 						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
+							required: "Et le message ?",
+							minlength: "C'est tout ?"
 						}
 					},
 					submitHandler: function(form) {
