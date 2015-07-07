@@ -58,20 +58,23 @@ $(document).ready(function(){
 	
     // portfolio filtering
 
-    $(".project-wrapper").mixItUp();
-	
-	
-	$(".fancybox").fancybox({
-		padding: 0,
+    $(".project-wrapper").mixItUp({
+    	callbacks: {
+    		onMixEnd: function() {
+				$(".fancybox:visible").fancybox({
+					padding: 0,
 
-		openEffect : 'elastic',
-		openSpeed  : 650,
+					openEffect : 'elastic',
+					openSpeed  : 650,
 
-		closeEffect : 'elastic',
-		closeSpeed  : 550,
+					closeEffect : 'elastic',
+					closeSpeed  : 550,
 
-		closeClick : true,
-	});
+					closeClick : true,
+				});
+    		}
+    	}
+    });
 	
 	/* ========================================================================= */
 	/*	Parallax
