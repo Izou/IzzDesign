@@ -29,6 +29,9 @@
 
 
 /* slider */
+.carousel-caption{
+  top:30%;
+}
 
 .carousel-caption h2 {
   font-size: 55px;
@@ -123,6 +126,10 @@ background-position: center top !important;
 }
 
 /* slider */
+.carousel-caption{
+  top : 30%;
+}
+
 .carousel-caption h2 {
   font-size: 35px;
 }
@@ -136,7 +143,7 @@ background-position: center top !important;
 }
 
 .social-links {
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 /* services */
